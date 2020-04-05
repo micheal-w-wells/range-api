@@ -9,8 +9,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Get PR Info 
     - uses: actions/checkout@v2
+    - name: Get PR Info 
       env:
         PR_DEPLOY_FRIENDLY_SUFFIX: myra
     - run: grep findThisVar $GITHUB_EVENT_PATH 
