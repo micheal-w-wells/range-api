@@ -13,4 +13,5 @@ jobs:
     - name: Get PR Info 
       env:
         PR_DEPLOY_FRIENDLY_SUFFIX: myra
-    run: grep findThisVar2 $GITHUB_EVENT_PATH 
+      run: |
+        grep findThisVar2 $GITHUB_EVENT_PATH 
