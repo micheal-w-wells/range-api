@@ -5,7 +5,6 @@ on:
     branches:
     - PR_DEPLOY_DEV
 
-
 jobs:
   build:
     runs-on: ubuntu-latest
