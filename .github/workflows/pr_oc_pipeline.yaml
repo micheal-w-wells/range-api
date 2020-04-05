@@ -14,4 +14,4 @@ jobs:
       env:
         PR_DEPLOY_FRIENDLY_SUFFIX: myra
       run: |
-        grep findThisVar2 $GITHUB_EVENT_PATH 
+        grep findThisVar $GITHUB_EVENT_PATH 
